@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cookieparser());
 const allowedOrigins = [
     "http://localhost:5173",
-    "https://interview-ai-mern-stack.vercel.app"
+    "https://interview-ai-helper-3.onrender.com"
 ];
 if (process.env.FRONTEND_URL) {
     allowedOrigins.push(process.env.FRONTEND_URL);
